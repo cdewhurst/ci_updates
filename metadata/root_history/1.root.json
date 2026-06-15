@@ -1,0 +1,67 @@
+{
+ "signatures": [
+  {
+   "keyid": "7f74212de0b0b3e421daa0fade09f2cc9deb7299092b8fb66be3309ce6f52598",
+   "sig": ""
+  }
+ ],
+ "signed": {
+  "_type": "root",
+  "consistent_snapshot": true,
+  "expires": "2027-06-15T16:13:13Z",
+  "keys": {
+   "7f74212de0b0b3e421daa0fade09f2cc9deb7299092b8fb66be3309ce6f52598": {
+    "keytype": "sigstore-oidc",
+    "keyval": {
+     "identity": "dewhurstcj@gmail.com",
+     "issuer": "https://github.com/login/oauth"
+    },
+    "scheme": "Fulcio",
+    "x-tuf-on-ci-keyowner": "@cdewhurst"
+   },
+   "f066d93f981d2c996c5dc1e43555e38f8afd635d666ee2783913d62e7a3df726": {
+    "keytype": "sigstore-oidc",
+    "keyval": {
+     "identity": "https://github.com/cdewhurst/ci_updates/.github/workflows/online-sign.yml@refs/heads/main",
+     "issuer": "https://token.actions.githubusercontent.com"
+    },
+    "scheme": "Fulcio",
+    "x-tuf-on-ci-online-uri": "sigstore:"
+   }
+  },
+  "roles": {
+   "root": {
+    "keyids": [
+     "7f74212de0b0b3e421daa0fade09f2cc9deb7299092b8fb66be3309ce6f52598"
+    ],
+    "threshold": 1
+   },
+   "snapshot": {
+    "keyids": [
+     "f066d93f981d2c996c5dc1e43555e38f8afd635d666ee2783913d62e7a3df726"
+    ],
+    "threshold": 1,
+    "x-tuf-on-ci-expiry-period": 365,
+    "x-tuf-on-ci-signing-period": 60
+   },
+   "targets": {
+    "keyids": [
+     "7f74212de0b0b3e421daa0fade09f2cc9deb7299092b8fb66be3309ce6f52598"
+    ],
+    "threshold": 1
+   },
+   "timestamp": {
+    "keyids": [
+     "f066d93f981d2c996c5dc1e43555e38f8afd635d666ee2783913d62e7a3df726"
+    ],
+    "threshold": 1,
+    "x-tuf-on-ci-expiry-period": 2,
+    "x-tuf-on-ci-signing-period": 1
+   }
+  },
+  "spec_version": "1.0.31",
+  "version": 1,
+  "x-tuf-on-ci-expiry-period": 365,
+  "x-tuf-on-ci-signing-period": 60
+ }
+}
