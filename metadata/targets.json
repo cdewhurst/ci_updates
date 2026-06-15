@@ -1,0 +1,46 @@
+{
+ "signatures": [
+  {
+   "keyid": "7f74212de0b0b3e421daa0fade09f2cc9deb7299092b8fb66be3309ce6f52598",
+   "sig": ""
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "delegations": {
+   "keys": {
+    "7f74212de0b0b3e421daa0fade09f2cc9deb7299092b8fb66be3309ce6f52598": {
+     "keytype": "sigstore-oidc",
+     "keyval": {
+      "identity": "dewhurstcj@gmail.com",
+      "issuer": "https://github.com/login/oauth"
+     },
+     "scheme": "Fulcio",
+     "x-tuf-on-ci-keyowner": "@cdewhurst"
+    }
+   },
+   "roles": [
+    {
+     "keyids": [
+      "7f74212de0b0b3e421daa0fade09f2cc9deb7299092b8fb66be3309ce6f52598"
+     ],
+     "name": "cdewhurst",
+     "paths": [
+      "cdewhurst/*",
+      "cdewhurst/*/*",
+      "cdewhurst/*/*/*",
+      "cdewhurst/*/*/*/*"
+     ],
+     "terminating": true,
+     "threshold": 1
+    }
+   ]
+  },
+  "expires": "2027-06-15T11:43:33Z",
+  "spec_version": "1.0.31",
+  "targets": {},
+  "version": 1,
+  "x-tuf-on-ci-expiry-period": 365,
+  "x-tuf-on-ci-signing-period": 60
+ }
+}
